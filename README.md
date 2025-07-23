@@ -47,7 +47,7 @@ You can write them in Arabic, English, Dutch, etc.
 
 Example:
 ```
-🇵🇸 Free Palestine  
+Free Palestine!
 Justice for Gaza.  
 أنقذوا أطفال فلسطين  
 اللهم انصر أهل غزة  
