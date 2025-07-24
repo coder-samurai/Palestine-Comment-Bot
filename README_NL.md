@@ -70,7 +70,7 @@ Gerechtigheid voor Gaza.
 Sta achter Palestina 🇵🇸
 ```
 
-### `proxyscrape_premium_http_proxies.txt` (Optioneel)
+### `proxys.txt` (Optioneel)
 ```
 192.168.1.1:8080
 10.0.0.1:3128

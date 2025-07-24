@@ -70,7 +70,7 @@ Justice for Gaza.
 Stand with Palestine 🇵🇸
 ```
 
-### `proxyscrape_premium_http_proxies.txt` (Optional)
+### `proxys.txt` (Optional)
 ```
 192.168.1.1:8080
 10.0.0.1:3128

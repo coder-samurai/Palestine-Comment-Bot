@@ -44,7 +44,7 @@ class BotConfig:
     cookies_dir: str = 'cookies'
     
     # Proxy settings
-    proxy_file: str = 'proxyscrape_premium_http_proxies.txt'
+    proxy_file: str = 'proxys.txt'
     use_proxy: bool = True
     proxy_timeout: int = 5  # seconds
     max_proxy_latency: int = 3000  # milliseconds - skip proxies slower than this
@@ -1280,7 +1280,7 @@ def create_sample_config_file():
         "log_file": "log.txt",
         "stats_file": "comment_stats.json",
         "cookies_dir": "cookies",
-        "proxy_file": "proxyscrape_premium_http_proxies.txt",
+        "proxy_file": "proxys.txt",
         "use_proxy": True,
         "proxy_timeout": 5,
         "max_proxy_latency": 3000,
@@ -1321,7 +1321,7 @@ CONFIGURATION FILES:
 - bot_config_sample.json          - Sample configuration template
 - comments.txt                     - Your comment templates (one per line)
 - accounts.txt                 - Account credentials (username:password format)
-- proxyscrape_premium_http_proxies.txt - Proxy list (optional)
+- proxys.txt - Proxy list (optional)
 
 KEY CONFIGURABLE OPTIONS:
 📊 Limits & Timing:
@@ -1377,7 +1377,7 @@ INTERACTIVE COMMANDS (while bot is running):
 EXAMPLE FILES NEEDED:
 - comments.txt: "Great post! 🔥", "Amazing content!", "Love this! ❤️"
 - accounts.txt: "username1:password1", "username2:password2"
-- proxyscrape_premium_http_proxies.txt: "192.168.1.1:8080", "10.0.0.1:3128"
+- proxys.txt: "192.168.1.1:8080", "10.0.0.1:3128"
 """)
 
 
