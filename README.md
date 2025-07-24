@@ -18,6 +18,30 @@
 
 ---
 
+## ⚠️ **IMPORTANT: ChromeDriver Version Compatibility**
+
+### 🇳🇱 **Nederlands**
+De ChromeDriver versie moet **exact hetzelfde** zijn als je Chrome browser versie. Bijvoorbeeld: als je Chrome 120.0.6099.109 hebt, gebruik dan ChromeDriver 120.0.6099.109. Een verkeerde versie zorgt voor crashes en "session not created" errors.
+
+### 🇺🇸 **English**
+The ChromeDriver version must be **exactly the same** as your Chrome browser version. For example: if you have Chrome 120.0.6099.109, use ChromeDriver 120.0.6099.109. A mismatched version causes crashes and "session not created" errors.
+
+### 🇸🇦 **العربية**
+يجب أن تكون نسخة ChromeDriver **مطابقة تماماً** لنسخة متصفح Chrome. مثال: إذا كان لديك Chrome 120.0.6099.109، استخدم ChromeDriver 120.0.6099.109. النسخة الخاطئة تسبب أخطاء وتعطل البرنامج.
+
+**Quick Version Check:**
+```bash
+# Check Chrome version
+google-chrome --version
+# or
+chromium --version
+
+# Download matching ChromeDriver from:
+# https://chromedriver.chromium.org/downloads
+```
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
