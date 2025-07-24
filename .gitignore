@@ -1,17 +1,126 @@
+# Virtual environments
 venv/
 .env/
+env/
+.venv/
 
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyw
+.Python
 
+# Bot-specific sensitive files
+accountscopy.txt
+proxyscrape_premium_http_proxies.txt
+bot_config.json
+
+# Log files and statistics
 log.txt
+errors.log
 comment_stats.json
+*.log
 
+# Browser data and cookies
 cookies/
+*.json.bak
 
+# ChromeDriver (platform-specific)
+# chromedriver.exe
+# chromedriver
+# chromedriver.linux
+# chromedriver.mac
+
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
+# OS-specific files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Backup files
+*.bak
+*.backup
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
